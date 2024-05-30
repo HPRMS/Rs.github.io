@@ -1,0 +1,49 @@
+﻿.yt-model
+{
+    border:0;           /*pop會加粗邊框，這里不要*/
+    box-shadow: 0 0 5px 1px #6C8484;
+    border-radius:1px;
+}
+
+.yt-model .yt-panel-body
+{
+    position:absolute;
+    top:24px;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.yt-model-header
+{
+    background:#EFEFEF;/*#AABADA;*/
+    color:#233F75;
+    font-weight:bold;
+    font-size:16px;
+    border-bottom:1px solid #e8e8e8; 
+    overflow:hidden;
+    padding:0 10px 0 36px;
+    position:relative;
+}
+
+.yt-model-logo
+{
+    position:absolute;
+    left:6px;
+    top:6px;
+    width:24px;
+    height:24px;
+    background-image:url(../../Image/Core5/pccmessenger.gif);
+    background-repeat:no-repeat;
+}
+
+
+.yt-model-footer
+{
+    background:#F8F8F8;
+}
+
+.yt-model-footer .yt-btn
+{
+    margin:5px 5px 0 5px;
+}

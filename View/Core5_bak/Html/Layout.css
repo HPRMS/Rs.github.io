@@ -1,0 +1,123 @@
+﻿/*table通過fixed方式固定寬度排版，必須設定width*/
+.s-layout-table
+{
+    table-layout:fixed;
+    width:100%;
+}
+
+/*form排版*/
+.s-form-layout
+{
+    border-collapse:separate;       /*IE在form直接將command的外層div換成td時，會出現border 0.5px不正常，顯示不出來，所以使用這種做法來模擬border的collapse效果*/
+    border-style:solid;
+    border-color:#D0D0D0;
+    border-width:1px 0 0 1px;
+    background-color:#ffffff;
+}
+
+.s-form-layout th,.s-form-layout td
+{
+    border-width:0 1px 1px 0;
+}
+
+/*table多行數據*/
+.s-grid-layout
+{
+    width:100%;
+    border-collapse:collapse;       /*嵌套時，IE8,9,10會繼承父節點的border-collapse*/
+}
+
+/*prompt*/
+.s-field-prompt
+{
+    overflow:hidden;
+    line-height:30px;
+    padding:0 10px;
+    xfont-family:Monaco,Consolas,'Lucida Console','Courier New',serif,arial, Consolas;
+    font-weight:normal;
+    xfont-size:12px;
+    border:1px solid #D0D0D0;
+    background-color:#F6F6F6;
+    color:#444444;
+}
+
+.s-grid-btn-th
+{
+    padding:0;
+    width:30px;
+}
+
+.s-grid-btn-th .s-btn
+{
+    border:0;
+    background-color:Transparent;
+    width:30px;
+}
+
+.s-grid-btn-th .s-btn-over
+{
+    background-color:#FFFFCC;
+}
+
+/*內容*/
+.s-field-content
+{
+    border:1px solid #D0D0D0;
+}
+
+.s-field-content .s-label
+{
+    border:0;
+    color:#000084;
+}
+
+.s-field-content .s-text
+{
+    border:0;
+}
+
+.s-field-content .s-command
+{
+    border:0;
+}
+
+.s-field-content .s-textarea
+{
+    border:0;
+}
+
+.s-field-content .s-btn
+{
+    border:0;
+}
+
+.s-field-content .s-input-error
+{
+    background-color:#ffefee;
+}
+
+/*gridtable layout時，非首行的prompt div樣式*/
+.s-grid-detail-prompt
+{
+    xfont-size:12px;
+    font-weight:bold;
+    padding:5px;
+    background-color:#FFFFE0;
+    border-bottom:1px dashed #A0A0A0;
+    margin:0 0 3px 0;
+}
+
+.s-grid-tr-select td
+{
+    font-weight:bold;
+    border-bottom:2px solid darkblue;
+}
+
+.s-td-error
+{
+    background-image:url(../../Image/Core5/exclamation.gif);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-color:#ffefee;
+    width:20px;
+}

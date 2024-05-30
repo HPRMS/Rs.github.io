@@ -1,0 +1,86 @@
+﻿/*工具欄*/
+/*用于排版的容器元件，請在config中設定border,padding和margin*/
+.s-toolbar
+{
+    background-color:#F6F6F6;
+    border:1px solid #C9C9C9;
+    padding:0;
+    border-color:#C9C9C9;
+    border-style:solid;
+    overflow:hidden;
+}
+
+.s-toolbar-btn
+{
+    border-color:#F9F9F9;
+    background-color:Transparent;/*#F9F9F9;*/
+    color:#444444;
+    margin:0 2px;
+    border-width:2px 0 0 0;
+}
+
+
+.s-toolbar-btn-over
+{
+    background-color:#ffffCC;
+    border-color:#009CE8;
+    color:#444444;
+}
+
+/*checked放在over后面，可以在選中時再移上去，不會變*/
+.s-toolbar-tgl-checked
+{
+    background-color:#FFFFBB;
+    border-color:#FFFFBB;
+}
+
+.s-toolbar-tgl-over
+{
+    background-color:#ffffCC;
+    border-color:#009CE8;
+    color:#444444;
+}
+
+.s-toolbar-split
+{
+    float:left;     /*如果是豎向的，使用--，則再用另一個樣式*/
+    border-left:1px solid #B0B0B0;
+    border-right:1px solid #FDFDFD;
+    width:0;
+    overflow:hidden;
+    height:14px;
+    overflow:hidden;
+    margin:10px 2px 0 2px;
+}
+/*
+.s-btn-showmenu
+{
+    background-color:#ffffCC;
+    border:1px solid gray;
+    border-bottom:1px solid #ffffCC;
+    color:Black;
+}
+*/
+.s-toolbar .s-btn-showmenu
+{
+    background-color:#ffffCC;
+    border-color:#009CE8;
+}
+
+.s-toolbar .s-label
+{
+    border:0;
+    margin-top:2px;
+    line-height:30px;
+}
+
+.s-toolbar .s-text
+{
+    margin-top:4px;
+}
+
+.s-toolbar .s-text-input
+{
+    line-height:22px;
+    height:22px;
+}

@@ -1,0 +1,54 @@
+/*节俭式form*/
+.s-label-form
+{
+    background-color:#F6F6F6;
+    padding:5px;
+}
+
+.s-label-field
+{
+    float:left;
+}
+
+.s-label-form-prompt
+{
+    float:left;
+    padding:0 5px 0 10px;
+    line-height:28px;
+    height:28px;
+    color:#888888;
+    margin:2px 0;
+    
+    xfont-family:Monaco,Consolas,'Lucida Console','Courier New',serif,arial, Consolas;
+    xfont-size:12px;
+}
+
+.s-label-form-content
+{
+    float:left;
+    width:120px;
+    margin:2px 0;
+}
+
+.s-label-form .s-command, .s-label-form .s-combox
+{
+    height:26px;
+    line-height:26px;
+}
+
+.s-label-form .s-text-input,.s-label-form .s-command-text,.s-label-form .s-combox-input  
+{
+    height:26px;
+    line-height:26px;
+}
+
+.s-label-form  .s-command-icon,.s-label-form .s-combox-icon
+{
+    top:6px;
+}
+
+.s-label-form .s-btn
+{
+    margin:3px 5px;
+    float:right;
+}

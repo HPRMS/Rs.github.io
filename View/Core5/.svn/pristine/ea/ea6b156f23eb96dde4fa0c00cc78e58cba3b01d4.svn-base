@@ -1,0 +1,36 @@
+﻿.s-report-style .s-grid-prompt
+{
+    padding:0;
+    white-space:normal;
+    height:auto;
+    line-height:1.5;
+}
+
+.s-report-style  .s-grid-th
+{
+    padding:2px 0;
+}
+/*
+.s-report-style .s-grid-td-seq
+{
+    text-align:center;
+    background-color:#EFEFEF;
+    color:#222222; 
+}
+*/
+.s-report-style .s-grid-td,.s-report-style .s-label
+{
+    height:24px;
+}
+
+.s-report-style td.s-label,.s-report-style .s-label
+{
+    line-height:24px;
+}
+
+.s-report-style .s-label
+{
+    background:none;
+    padding:0 2px;
+    overflow:visible;
+}

@@ -1,0 +1,39 @@
+﻿.s-edit-grid .s-grid-body-tr
+{
+    background-color:#f8f8f8;
+}
+
+
+.s-edit-grid .s-grid-tr-selected
+{
+    background-color:#ffffb0
+}
+
+
+.s-edit-grid .s-grid-tr-over
+{
+    background-color:#C0C0FF;
+}
+
+
+.s-edit-grid .s-text,.s-edit-grid .s-command,.s-edit-grid .s-combox,.s-edit-grid .s-upload
+{
+    background-color:white;
+}
+
+.s-edit-grid td.s-command, .s-edit-grid td.s-combox
+{
+    display:block;      /*for ff td,th不支援position*/
+}
+
+.s-edit-grid td.s-input-error,.s-edit-grid td .s-input-error
+{
+    background-color:#FFEFEE;
+}
+
+.s-edit-grid .s-readonly
+{
+    background-color:#f8f8f8;
+    color:#000084;
+}
+

@@ -1,0 +1,291 @@
+﻿.s-label
+{
+    xfont-family:Arial;
+    xfont-size:12px;
+    line-height:30px;
+    height:30px;
+    padding:0 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;     
+    background:none;
+    border:1px solid transparent;
+}
+
+.s-label-mline
+{
+    white-space:normal;
+    line-height:normal;
+    height:auto;
+}
+
+.s-command
+{
+    position:relative;
+    overflow:hidden;
+    background-color:#FAFAFA;
+    padding:0 30px 0 5px;
+    cursor:pointer;
+    xfont-family:Arial;
+    xfont-size:12px;
+    line-height:30px;
+    height:30px;
+    border:1px solid #C0C0C0;
+}
+
+.s-command-text
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;   
+    _height:30px;       /*for IE6*/
+}
+
+.s-command-icon
+{
+    position:absolute;
+    right:5px;
+    top:7px;
+}
+
+.s-text
+{
+    padding:0 5px;
+    overflow:hidden;    
+    background-color:white;
+    border:1px solid #C0C0C0;
+    
+}
+
+.s-text-input
+{
+    width:100%;             /* IE6的100%不是相對父容器中去除了padding的寬度，而是整個寬度，因些會有10px的溢出，不管了*/
+    line-height:30px;
+    border-width:0;
+    padding:0;
+    margin:0;    
+    height:30px;
+    overflow:hidden;
+    xfont-family:Arial;
+    xfont-size:12px;
+    +float:left;            /*for IE6/7 margin無效*/
+    background-color:Transparent;
+    color:Black;
+    display:block;          /*for chrome 30.0 text默認display:inline-block，造成下面有5px的高度差出來*/
+}
+
+.s-text-empty-prompt .s-text-input
+{
+    color:Gray;
+}
+
+.s-textarea
+{
+    padding:0;
+    overflow:hidden;    
+    background-color:white;
+    border:1px solid #C0C0C0;
+    position:relative;
+}
+
+.s-textarea-input
+{
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    position:absolute; 
+    line-height:20px;
+    border-width:0;
+    padding:0;
+    margin:0;    
+    overflow:auto;
+    xfont-family:Arial;
+    xfont-size:12px;
+    resize:none;    /*for chrome,safari webkit*/
+}
+
+
+.s-combox
+{
+    position:relative;
+    padding:0 30px 0 5px;   
+    overflow:hidden;    
+    background-color:white;
+    border:1px solid #C0C0C0;
+    
+}
+
+.s-combox-input
+{
+    width:100%;   
+    line-height:30px;
+    height:30px;
+    border-width:0;
+    padding:0;
+    margin:0;    
+    height:30px;
+    overflow:hidden;
+    xfont-family:Arial;
+    xfont-size:12px;
+    +float:left;            /*for IE6/7 margin無效*/
+    
+}
+
+.s-combox-btn
+{
+    xfont-size:12px;
+    cursor:pointer;
+    position:absolute;
+    right:0px;
+    top:0px;
+    width:29px;
+    border-left:1px solid #C0C0C0;
+    line-height:30px;
+    background-color:#FAFAFA;
+    
+}
+
+.s-combox-icon
+{
+    cursor:pointer;
+    position:absolute;
+    right:5px;
+    top:7px;
+}
+
+
+.s-upload
+{
+    position:relative;
+    overflow:hidden;
+    background-color:#FAFAFA;
+    xpadding:0 30px 0 5px;
+    xfont-family:Arial;
+    xfont-size:12px;
+    line-height:30px;
+    height:30px;
+    border:1px solid #C0C0C0;
+}
+
+.s-upload-text
+{
+    position:absolute;
+    top:0;
+    left:0;
+    right:30px;
+    bottom:0;
+    xborder:1px solid red;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;   
+    _height:30px;       /*for IE6*/
+}
+
+.s-upload-label
+{
+    position:absolute;
+    cursor:pointer;
+    right:0;
+    top:0;
+    bottom:0;
+    width:29px;
+    border-left:1px solid #C0C0C0;
+    background-color:#FAFAFA;
+    
+}
+
+.s-upload-icon
+{
+    position:absolute;
+    cursor:pointer;
+    right:5px;
+    top:7px;
+}
+
+.s-checkbox
+{
+    position:relative;
+    overflow:hidden;
+    background-color:#FAFAFA;
+    cursor:pointer;
+    xfont-family:Arial;
+    xfont-size:12px;
+    border:1px solid #C0C0C0;
+    margin:0;
+    line-height:30px;
+    height:30px;
+}
+
+.s-checkbox-input
+{
+    position:absolute;
+    top:5px;
+    left:5px;
+    cursor:pointer;     /*label for chrome*/
+}
+
+.s-checkbox-label
+{
+    position:absolute;
+    overflow:hidden;
+    cursor:pointer;     /*label for chrome*/
+    top:0;
+    left:30px;
+    right:0;
+    bottom:0;
+    
+}
+
+.s-readonly
+{
+    background-color:#efefef;
+    color:#000084;
+}
+
+.s-readonly .s-text-input
+{
+    cursor:default;
+}
+.s-readonly .s-textarea-input
+{
+    cursor:default;
+}
+
+.s-input-error
+{
+    border-color:Red;
+    background-color:#FFEFEE;
+}
+
+.s-disabled
+{
+    color:Gray;
+    xcursor:not-allowed;
+    cursor:default;
+}
+
+/*disable是用responser關係，而這里應該是container關係，暫時不管*/
+.s-disabled .s-command,.s-disabled .s-combox-btn,.s-disabled .s-combox-icon,.s-disabled .s-upload,.s-disabled .s-upload-text,.s-disabled .s-upload-icon
+{
+    cursor:default;
+}
+
+.s-command-disabled,.s-combox-disabled
+{
+    cursor:default;
+}
+
+.s-command-disabled .s-command-icon,.s-combox-disabled .s-combox-icon,.s-combox-disabled .s-combox-btn
+{
+    visibility:hidden
+}
+
+.s-combox-disabled .s-combox-input
+{
+    background:none;
+}
+
+

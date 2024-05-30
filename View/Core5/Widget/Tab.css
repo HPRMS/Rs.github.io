@@ -1,0 +1,144 @@
+﻿/*默認主藍色標題在左上,下面一條橫線，*/
+.s-tab-title
+{
+    xfont-size:12px;
+    line-height:25px;
+    height:30px;
+    margin:0 2px;
+    xbackground-color:#efefef;
+    
+    border-bottom:2px solid #677FAE;
+    border-top-right-radius:3px;
+    border-top-left-radius:3px;
+}
+
+.s-tab-title-text
+{
+    padding:0 15px;
+    color:gray;
+    cursor:pointer;
+    
+    margin-top:5px;
+    margin-left:20px;
+    float:left;
+}
+
+.s-tab-title-text-selected
+{
+    color:#ffffff;
+    cursor:default;
+    
+    background-color:#677FAE;
+    border-top-right-radius:3px;
+    border-top-left-radius:3px;
+}
+
+.s-tab-title-toolbar
+{
+    display:none;
+    float:right;
+    margin-top:5px;    
+    margin-right:20px;
+}
+
+.s-tab-title-toolbar .s-toolbar
+{
+    border:none;
+    background:transparent;
+}
+
+.s-tab-title-toolbar .s-toolbar-btn
+{
+    line-height:25px;
+    border:none;
+}
+
+.s-tab-title-toolbar .s-toolbar-btn .s-btn-icon
+{
+    top:5px;
+}
+
+.s-tab-title-toolbar .s-toolbar-split
+{
+    margin:2px 2px 0 2px;
+    border-width:0 0 0 1px;
+    border-color:#C5C5C5;
+    line-height:20px;
+    height:20px;
+    
+}
+
+
+.s-tab-title-toolbar-selected
+{
+    display:block;
+}
+
+.s-tab-title-toolbar em
+{
+    margin:0 15px;
+    font-style:normal;
+}
+
+/*標題在線下面*/
+.s-tab-bottom .s-tab-title
+{
+    border-bottom:0;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    
+    border-top:2px solid #677FAE;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;        
+}
+
+.s-tab-bottom .s-tab-title-text
+{
+    margin-top:0;
+}
+
+.s-tab-bottom .s-tab-title-text-selected
+{
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;        
+}
+
+.s-tab-bottom .s-tab-title-toolbar
+{
+    margin-top:0;
+    
+}
+
+/*標題在右邊*/
+.s-tab-right .s-tab-title-text
+{
+    margin-left:0;
+    margin-right:20px;
+    float:right;
+    
+}
+
+.s-tab-right .s-tab-title-toolbar
+{
+    margin-left:20px;
+    margin-right:0;
+    float:left;
+}
+
+/*顏色變另一主色*/
+.s-tab-odd
+{
+   border-color:#009CE8;
+}
+
+.s-tab-odd .s-tab-title
+{
+    border-color:#009CE8;
+}
+
+.s-tab-odd .s-tab-title-text-selected
+{
+    background-color:#009CE8;
+}

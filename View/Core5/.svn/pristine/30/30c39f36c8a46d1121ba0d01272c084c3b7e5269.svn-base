@@ -1,0 +1,29 @@
+﻿.s-pop
+{
+    background-color:White;
+    border:1px solid #677FAE;
+}
+
+
+.transformDiv
+{
+    background-color:#76A5F1;
+    border:1px solid #76A5F1;
+    position:absolute;
+    overflow:hidden;
+    width:100px;
+    height:100px;
+    visibility:hidden;
+    z-index:1000;
+}
+
+.maskDiv
+{
+    background-color:#efefef;
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:none;
+    left:0;
+    top:0;
+}

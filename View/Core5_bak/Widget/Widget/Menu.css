@@ -1,0 +1,111 @@
+/*工具欄*/
+.s-menu
+{
+    background-color:#F6F6F6;
+    border:1px solid #C9C9C9;
+    position:relative;
+    xwidth:180px;
+    xoverflow:hidden;
+    xpadding-right:20px;
+}
+
+.s-menu-v-split
+{
+    bottom:0;
+    width:0;
+    border-left:1px solid #C0C0C0;
+    border-right:1px solid #FEFEFE;
+    overflow:hidden;
+    position:absolute;
+    left:34px;
+    top:0;
+}
+
+.s-menu-btn
+{
+    border-color:Transparent;
+    background-color:Transparent;
+    color:#444444;
+    border-width:1px;
+    margin:1px;
+    line-height:32px;       /*用于over時的border出現不抖動*/
+}
+
+.s-menu-btn .s-btn-text
+{
+    text-align:left;
+    margin-left:40px;       /*圖標與文字間相隔4px = padding 8 - (icon left:8 + icon width:14 - margin-left:18)*/
+    margin-right:40px;
+    min-width:80px;
+    overflow:visible;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+
+.s-menu-btn-over
+{
+    background-color:#ffffCC;
+    border-color:#e0e0e0;
+    color:#444444;
+}
+
+/*checked放在over后面，可以在選中時再移上去，不會變*/
+.s-menu-tgl-checked
+{
+    background-color:#FFFFBB;
+    border:1px solid #A0A0A0;
+}
+
+.s-menu-tgl-over
+{
+    background-color:#ffffCC;
+    border-color:#e0e0e0;
+    color:#444444;
+}
+
+.s-menu-split
+{
+    border-top:1px solid #C0C0C0;
+    border-bottom:1px solid #FEFEFE;
+    height:0px;
+    overflow:hidden;
+    margin:1px 0px;
+    position:relative;
+}
+
+
+.s-menu-item-group-title
+{
+    xfont-family:Arial;
+    xfont-size:12px;
+    font-weight:bold;
+    white-space:nowrap;
+    padding:2px 5px 2px 5px;    
+    text-align:center;
+    background-color:#FBFBFB;
+    border-bottom:1px dotted #C0C0C0;
+    margin:0px 2px;
+    line-height:22px;
+    color:#444444;
+    position:relative;      /*可遮住垂直分隔線*/
+}
+
+/*
+.s-menu-item-submenu
+{
+    width:14px;
+    height:14px;
+    position:absolute;
+    overflow:hidden;
+    top:7px;
+    right:5px;
+}
+*/
+.s-menu .s-btn-showmenu
+{
+    background-color:#ffffCC;
+    border:1px solid #e0e0e0;
+    padding:0px;
+    border-right:1px solid #ffffCC;
+}

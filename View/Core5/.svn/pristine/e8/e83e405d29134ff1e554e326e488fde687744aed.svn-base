@@ -1,0 +1,72 @@
+﻿.s-mp
+{
+    border:1px solid #888888;
+    xmin-width:200px;
+}
+
+.s-mp .s-yp
+{
+    border-width:0 0 1px 0;
+    border-color:white;
+}
+
+.s-mp .s-btn
+{
+    border-color:#677FAE;
+}
+
+.s-mp-show
+{
+    line-height:26px;    
+    xfont-family:Trebuchet MS;
+    font-size:14px;
+    white-space:nowrap;     /*IE6 用white-space nowrap后,setOuterWidth不準*/
+    overflow:hidden;
+    text-overflow:ellipsis;
+    text-align:center;
+    color:#333333;
+    font-weight:bold;
+}
+
+/*table 最外層*/
+.s-mp-table
+{
+    width:100%;
+    border-collapse:collapse;
+    background-color:#EBEBEB;
+    border-bottom:1px solid gray;    
+}
+
+/*統一格式*/
+.s-mp-td
+{
+    xfont-size:12px;
+    line-height:24px;
+    xfont-family:Trebuchet MS;
+    text-align:center;
+    cursor:pointer;
+    color:#444444;
+}
+
+
+/*今天*/
+.s-mp-thismonth
+{
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+/*滑鼠劃過行*/
+.s-mp-td-over
+{
+    background-color:#2FBBFF;
+    color:#FFFFFF;
+}
+
+/*當前選中的行*/
+.s-mp-select
+{
+    background-color:#009CE8;
+    color:white;
+    font-weight:bold;
+}

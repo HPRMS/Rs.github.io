@@ -1,0 +1,58 @@
+﻿/*form排版*/
+.s-form .s-layout-table
+{
+    border-style:solid;
+    border-color:#D0D0D0;
+    border-width:1px 0 0 1px;
+}
+
+.s-form .s-radiobox .s-layout-table{
+    border:0;
+}
+
+.s-form-th,.s-form-td,.s-form td.s-text,.s-form td.s-label,.s-form td.s-command,.s-form td.s-combox
+{
+    border-style:solid;
+    border-color:#D0D0D0;
+    border-width:0 1px 1px 0;
+}
+
+td.s-command,td.s-tgl,td.s-checkbox,td.s-combox
+{
+    display:block;      /*for ff td,th不支援position,但是checkbox即使display:block，還是會出現問題？還是因為和colspan的單元格一起才出現問題?*/
+}
+
+.s-form-td .s-label
+{
+    background-color:#FAFAFA;
+}
+
+.s-form-td .s-label,.s-form-td .s-text,.s-form-td .s-command,.s-form-td .s-tgl,.s-form-td .s-checkbox,.s-form-td .s-textarea,.s-form-td .s-upload,.s-form-td .s-combox
+{
+    border:0;
+}
+
+
+.s-form-th
+{
+    xfont-family:Monaco,Consolas,'Lucida Console','Courier New',serif,arial;
+    font-weight:normal;
+    xfont-size:12px;
+    
+    background-color:#F6F6F6;
+    color:#222222;
+    
+    overflow:hidden;
+    line-height:30px;
+    padding:0 5px;
+   
+    xwidth:150px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+
+.s-form td.s-label
+{
+    color:#000084;
+}

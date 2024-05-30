@@ -1,0 +1,20 @@
+﻿.yt-btn,.yt-btn-l,.yt-btn-r{background-image:url(../../Image/Core5/button.gif);}
+.yt-btn{background-position:0px -25px;background-repeat:repeat-x;}
+.yt-btn-l{ position:absolute; left:0; top:0;bottom:0; width:3px;background-position:0px 0px;background-repeat:no-repeat;}
+.yt-btn-r{ position:absolute; right:0; top:0;bottom:0; width:3px;background-position:-4px 0px;background-repeat:no-repeat;}
+.yt-btn-over{ background-position:0px -75px;}
+.yt-btn-over .yt-btn-l{background-position:0px -50px;}
+.yt-btn-over .yt-btn-r{background-position:-4px -50px;}
+
+.yt-btn 
+{
+    height:25px; 
+    overflow:hidden; 
+    line-height:25px; 
+    cursor:pointer;
+    position:relative;
+    text-align:center;
+    padding:0 10px;
+    xfont-size:12px;
+    xfont-family:"微软雅黑", "宋体", Arial, sans-serif
+}
