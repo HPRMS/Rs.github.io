@@ -1,0 +1,71 @@
+.flowset{
+	border:1px dotted #efefef;
+	background-color:#fafafa;
+	white-space: nowrap;
+}
+
+.flowset-item{
+	margin: 2px 5px;
+
+    position:relative;
+    background-color:#ffffd1;
+    border-width:1px;
+    border-style:solid;
+    border-color:#dfdfdf;
+    overflow:hidden;
+    font-family:Monaco,Consolas,'Lucida Console','Courier New',serif,arial, Consolas;
+    font-size:12px;
+    line-height:30px;  
+}
+
+.flowset-item-name{
+	padding:0 8px;
+	margin-left:18px;
+	min-width:60px;
+	text-align: center;
+}
+
+.flowset-item .icon-user{
+	position:absolute;
+    top:8px;
+    left:8px;
+}
+
+.flowset-item .icon-arrow-right{
+    cursor:pointer;
+	visibility:hidden;
+	position: absolute;
+	top:8px;
+	right:0;
+	border:1px solid #ffffd1;
+}
+.flowset-item .icon-remove{
+    cursor:pointer;
+	visibility:hidden;
+	position: absolute;
+	top:8px;
+	right:18px;
+	border:1px solid #ffffd1;
+}
+.flowset-item .icon-arrow-left{
+    cursor:pointer;
+	visibility:hidden;
+	position: absolute;
+	top:8px;
+	right:36px;
+	border:1px solid #ffffd1;
+}
+
+.flowset-item-over .flowset-item-name{
+
+	padding-right:54px;
+}
+.flowset-item-over .icon-remove,.flowset-item-over .icon-arrow-left,.flowset-item-over .icon-arrow-right{
+	visibility:visible;
+	xborder-color:gray;
+}
+
+.flowset-item .flowset-icon-over{
+	border-color:#444444;
+
+}

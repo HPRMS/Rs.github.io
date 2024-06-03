@@ -1,0 +1,123 @@
+﻿html,body
+{
+    overflow:hidden;
+    margin:0;
+    background-image:url(../Image/Common/back.png);
+}
+
+.topbar
+{
+    background-color:#e8e8e8;
+    border-top-color:#ffffff;
+}
+
+.topbar .s-toolbar-btn
+{
+    border-color:#e8e8e8;
+}
+
+.taskbar
+{
+    border-color:#E8E8E8;
+    position:absolute;
+    left:195px;
+    right:205px;
+    
+}
+
+.s-user-btn .s-btn-text
+{
+    color:#000084;
+}
+
+
+.topbar .yt-panel-title-tools
+{
+    top:8px;
+    display:none;
+    right:35px;
+}
+
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*窗口最大化*/
+
+.s-win-max .s-user-btn
+{
+    display:none;
+}
+
+.s-win-max .topbar
+{
+    background-color:#6C84B4;
+}
+
+.s-win-max .topbar .yt-panel-title-tools
+{
+    display:block;
+}
+
+
+.s-win-max .topbar .s-btn-text
+{
+    color:#EFEFEF;
+}
+
+.s-win-max .topbar .s-toolbar-btn
+{
+    border-color:#6C84B4;
+}
+
+.s-win-max .taskbar
+{
+    background-color:#6C84B4;
+    border-color:#6C84B4;
+}
+
+.s-win-max .yt-taskbar-item
+{
+    border-color:#6C84B4;
+    color:#E0E0E0;
+}
+
+.s-win-max .yt-taskbar-item-over
+{
+    color:black;
+}
+
+.s-win-max .yt-taskbar-current
+{
+    color:black;
+}
+
+.s-win-max .yt-taskbar-down
+{
+    border-color:#6C84B4;
+}
+
+
+.s-win-max .topbar .s-toolbar-btn-over .s-btn-text
+{
+    color:Black;
+}
+
+
+.s-win-max .topbar .s-btn-showmenu .s-btn-text
+{
+    color:Black;
+}
+
+/*
+暫時沒用,如果真要的話,需要在body上加一個class,因為window是彈出來的,不含在.s-win-max中
+.s-win-max .yt-window
+{
+    box-shadow:none;
+}
+*/
